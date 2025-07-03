@@ -1,0 +1,21 @@
+{
+    "widgets": [
+        {
+            "type": "metric",
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 10,
+            "properties": {
+                "view": "timeSeries",
+                "stacked": false,
+                "metrics": [
+                    [ "AcortadorService", "GET_/_duration" ],
+                    [ ".", "GET_/favicon.ico_duration" ],
+                    [ ".", "GET_/ping_duration" ]
+                ],
+                "region": "us-east-1"
+            }
+        }
+    ]
+}
